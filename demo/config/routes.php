@@ -102,3 +102,5 @@ Router::scope('/', function (RouteBuilder $routes) {
  * });
  * ```
  */
+
+$routes->connect('/vue-demo', ['controller' => 'Pages', 'action' => 'vueDemo']);
